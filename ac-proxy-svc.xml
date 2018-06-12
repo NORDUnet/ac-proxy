@@ -1,0 +1,9 @@
+
+<configuration>
+  <id>ACLoginProxy</id>
+  <name>AC Login Proxy</name>
+  <description>Login proxy for Adobe Connect to allow localhost logins on api/xml</description>
+  <executable>%BASE%\ac-proxy.exe</executable>
+  <arguments>-host connect-beta.sunet.se</arguments>
+  <logmode>rotate</logmode>
+</configuration>
